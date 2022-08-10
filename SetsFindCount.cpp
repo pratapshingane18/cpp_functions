@@ -43,4 +43,18 @@ int main()
     return 0; 
 } 
 
+// Output:
 
+// Element Found.
+// The set elements after 3 are: 3 4 5
+// 4 is present
+
+/*The set::find() is a built-in function in C++ STL which returns an iterator to the 
+element which is searched in the set container. It accepts the element to be searched 
+as a parameter and if the element is not found, then it returns an iterator pointing 
+to the position just after the last element in the set otherwise if the element is found, 
+it returns an iterator pointing to that element.
+The set::count() function works similar to the find() function. As the name suggests it is 
+supposed to count the number of occurrences of the element present in the set, 
+but as set does not allows duplicate elements, the function count() returns 0 if 
+the element is not present in the set otherwise it returns 1.*/
